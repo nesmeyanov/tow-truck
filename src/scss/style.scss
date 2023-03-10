@@ -2,20 +2,49 @@
 @import 'global/*.scss';
 @import '**/_*.scss';
 @import '../components/**/*.scss';
+body {
+  background-color:#FDFCFF;
+}
+.header {
+  width: 100%;
+  height: 70px;
+}
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
 }
+.primary-font-color{
+  color: #001C3A;
+}
+.primary-btn-bg {
+  background: #001C3A;
+}
+.surface-font-color {
+  color: #1A1C1E;
+}
+.secondary-font-color {
+  color: #545F71;
+}
+.onsurface-font-color {
+  color: #43474E;
+}
+.header {
+  background: #FDFCFF;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.05);
+}
 
 .navbar {
-  box-shadow: 0px 5px 10px 0px #aaa;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.05);
+  background: #FDFCFF;
   position: fixed;
   width: 100%;
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 70px;
   z-index: 12;
+  display: inline-flex;
+  justify-content: space-around;
   &-container {
     display: flex;
     justify-content: space-between;
@@ -24,6 +53,12 @@
   }
 }
 
+.container {
+
+}
+.main-wrapper {
+  min-width: 1200px;
+}
 
 .menu-items {
   order: 2;
@@ -42,11 +77,11 @@
   }
   & a {
     text-decoration: none;
-    color: #444;
+    color: #001C3A;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
     :hover {
-      color: #117964;
+      color: #001C3A;
       transition: color 0.3s ease-in-out;
     }
   }
@@ -162,4 +197,62 @@
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
+}
+ 
+.logo-block {
+  width: 70px;
+  height: 70px;
+}
+
+.header-call-btn {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  font-family: Montserrat-Medium;
+  border-radius: 25px;
+  border: none;
+}
+
+.header-call-btn button{
+  width: 100%;
+  height: 48px;
+  opacity: 1;
+  // background-color: transparent;
+  color: #fff;
+}
+
+.header-telegram-btn--container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.header-telegram-btn {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 16px;
+  line-height: 24px;
+  border-radius: 25px;
+  font-family: Montserrat-Medium;
+}
+
+.header-content {
+  padding-top: 75px;
+  width: 100%;
+  text-align: center;
+}
+
+.header-sub-title {
+  padding-top: 2em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  // font-family: Montserrat-Bold;
+  font-family: Montserrat-Medium;
+  // font-family: Montserrat-Regular;
+}
+
+.header-title {
+  font-family: Montserrat-Bold;
+  font-size: 2em;
+  padding: 0.5em 0.5em;
 }
