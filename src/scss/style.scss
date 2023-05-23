@@ -246,6 +246,132 @@ body {
   
 }
 
+.galary {
+  height: 400px;
+  &--title {
+    font-family: Montserrat-Bold;
+  }
+}
+
+.contacts {
+  background-color: #001C3A;
+  padding: 3em 1.2em;
+  &--title {
+    font-family: Montserrat-Bold;
+    color: #FDFCFF;
+    font-size: 2em;
+    letter-spacing: 3px;
+    padding-bottom: 1em;
+  }
+  &-phone-block {
+    width: 100%;
+    &--container {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+
+    }
+    &--title {
+      color: #FDFCFF;
+      font-family: Montserrat-Medium;
+      font-size: 0.9em;
+      font-weight: 400;
+      padding-bottom: 0.5em;
+    }
+    &--number {
+      color: #FDFCFF;
+      font-size: 0.9em;
+      font-weight: 400;
+    }
+    &--copy {
+      font-family: Montserrat-Medium;
+      font-size: 0.9em;
+      font-weight: 400;
+      color: #FDFCFF;
+      text-decoration: underline;
+    }
+  }
+  &-work-block {
+    width: 100%;
+    padding-top: 1.2em;
+    &--container {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+
+    }
+    &--title {
+      color: #FDFCFF;
+      font-family: Montserrat-Medium;
+      font-size: 0.9em;
+      font-weight: 400;
+      padding-bottom: 0.5em;
+    }
+    &--number {
+      color: #FDFCFF;
+      font-size: 0.9em;
+      font-weight: 400;
+    }
+    &--copy {
+      font-family: Montserrat-Medium;
+      font-size: 0.9em;
+      font-weight: 400;
+      color: #FDFCFF;
+    }
+  }
+}
+
+.socials {
+  padding-top: 1.5em;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  &-telegram--block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img {
+      width: 70%;
+    }
+    & p {
+      padding-top: 1em;
+      color: #FDFCFF;
+      font-size: 0.9em;
+    }
+  }
+  &-instagram--block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & p {
+      padding-top: 1em;
+      color: #FDFCFF;
+      font-size: 0.9em;
+    }
+    & img {
+      width: 70%;
+    }
+  }
+  
+  &-facebook--block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & p {
+      padding-top: 1em;
+      color: #FDFCFF;
+      font-size: 0.9em;
+    }
+    & img {
+      width: 70%;
+    }
+  }
+}
+
+
+
 
 @media (max-width: 768px) {
   .navbar {
