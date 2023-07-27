@@ -7,9 +7,7 @@ body {
   font-family: Montserrat-Medium;
 
 }
-// .header {
-//   width: 100%;
-// }
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -136,6 +134,7 @@ body {
   }
 }
 
+// =====we tow section start ======
 .we-tow {
   overflow: hidden;
   margin-top: 3em;
@@ -168,10 +167,10 @@ body {
     &--img {
       width: 50%;
       height: 100%;
-      // margin: auto 0;
     }
   }
 }
+// =====we tow section end ======
 
 .about-us-row--container {
   width: 100%;
@@ -243,13 +242,57 @@ body {
   &--card--title {
     font-size: 0.9em;
   }
-  
 }
 
 .galary {
-  height: 400px;
+  //max-height: 400px;
   &--title {
     font-family: Montserrat-Bold;
+  }
+
+}
+.galary .galary-slider {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.slick-arrow {
+  width: 35px;
+  height: 35px;
+}
+
+.slick-next {
+  background-image: url("../img/ff-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 15px;
+  z-index: 1;
+  &::before {
+    content: none;
+  }
+  &:hover,
+  &:focus {
+    background-image: url("../img/ff-arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.slick-prev {
+  background-image: url("../img/back-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 15px;
+  z-index: 1;
+  &::before {
+    content: none;
+  }
+  &:hover,
+  &:focus {
+    background-image: url("../img/back-arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
@@ -372,7 +415,7 @@ body {
 
 
 
-
+// =====media query=====
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;

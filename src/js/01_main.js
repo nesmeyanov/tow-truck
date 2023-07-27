@@ -1,8 +1,11 @@
+
 $(document).ready(function(){
-    $('.slider-content').slick({
+    $('.galary-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
+        fade: true,
+        cssEase: 'linear'
       });
   });
 
