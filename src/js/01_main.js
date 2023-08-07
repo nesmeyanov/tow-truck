@@ -9,4 +9,14 @@ $(document).ready(function(){
       });
   });
 
+  
+$(document).ready(function(){
+    $('.header-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        fade: true,
+        cssEase: 'linear'
+      });
+  });
  
