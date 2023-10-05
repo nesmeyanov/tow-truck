@@ -270,7 +270,7 @@ body {
     }
     &--img {
       width: 50%;
-      height: 100%;
+      height: fit-content;
     }
   }
 }
@@ -345,6 +345,7 @@ body {
     &::before {
       content: '';
       background: url(../img/quote.png) no-repeat;
+      background-size: contain;
       display: block;
       width: 40px;
       height: 37px;
@@ -732,7 +733,7 @@ body {
     border: none;
     cursor: pointer;
     display: block;
-    width: 42%;
+    width: 55%;
     text-align: center;
   }
   
@@ -764,5 +765,38 @@ body {
     width: 59%;
   }
 
+  .feedback-block {
+    display: inline-flex;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .we-tow-row--container--text {
+    font-size: 1.3rem;
+  }
+  .feedback--card--description::before {
+    width: 21px;
+    height: 22px;
+  }
+  .contacts-wrapper {
+    display: inline-flex;
+  }
+  .contacts-phone-block--copy {
+    display: none;
+  }
+  .contacts-work-block {
+    padding-top: 0;
+    width: 29%;
+  }
+  .socials {
+    padding-top: 0;
+    width: 34%;
+  }
+  .contacts-phone-block {
+    width: 25%;
+  }
+  .contacts-wrapper {
+    justify-content: space-between;
+    width: 100%;
+  }
 }
  
