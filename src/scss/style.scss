@@ -871,7 +871,81 @@ body {
   .about-us--title {
     text-align: center;
   }
- 
-
+  .we-tow-row--container {
+    flex-direction: column;
+  }
+  .we-tow-block {
+    display: flex;
+  }
+  .we-tow-row--container--text {
+    font-size: 1.18em;
+  }
+  .we-tow-row--container--img {
+    width: 95%;
+  }
+  .feedback--card-container {
+    width: 48%;
+  }
+  .feedback-block {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .we-tow-row--container--text {
+    text-align: center;
+  }
+  .contacts-phone-block--copy {
+    display: none;
+  }
+  .contacts-wrapper {
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+  }
+  .contacts-phone-block,
+  .contacts-work-block,
+  .socials {
+    width: auto;
+    padding: 0;
+    margin: auto 0;
+  }
+  .contacts--title {
+    padding-left: 5.7em;
+  }
+  .main-call-btn  {
+    margin: auto;
+    font-family: Montserrat-Medium;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 55%;
+    text-align: center;
+    & a {
+      width: 90%;
+      height: 48px;
+      opacity: 1;
+      color: #fff;
+      cursor: pointer;
+      text-decoration: none;
+      line-height: 47px;
+    }
+  }
+  .about-us-row--container {
+    width: 30%;
+    flex-direction: column;
+    &--img {
+      order: -1;
+    }
+    &--text {
+      width: 91%;
+      text-align: left;
+      margin: 0 auto;
+    }
+  }
 }
  
