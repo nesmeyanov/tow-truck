@@ -192,7 +192,7 @@ body {
     padding-left: 1em;
     &--title {
       color: #545F71;
-      font-size: 1.3em;
+      font-size: 1.29em;
       }
       &--text {
         font-size: 1em;
@@ -317,6 +317,25 @@ body {
       color: #fff;
       transition: color 0.3s ease-in-out;
     }
+  }
+}
+.main-call-btn  {
+  margin: auto;
+  font-family: Montserrat-Medium;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 70%;
+  text-align: center;
+  & a {
+    width: 90%;
+    height: 48px;
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 47px;
   }
 }
 
@@ -661,7 +680,7 @@ body {
 
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .header-title {
     width: 57%;
     margin: 0 auto;
@@ -804,7 +823,7 @@ body {
     flex-direction: column;
     &-wrapper {
       justify-content: space-between;
-      width: 70%;
+      width: 100%;
       margin: 0 auto;
     }
     &--title {
@@ -861,7 +880,10 @@ body {
       text-align: center;
     }
     &-block {
-      width: 45%;
+      width: 35%;
+    }
+    &-container {
+      text-align: center;
     }
   }
   .ukr-map {
@@ -923,7 +945,7 @@ body {
     border: none;
     cursor: pointer;
     display: block;
-    width: 55%;
+    width: 27%;
     text-align: center;
     & a {
       width: 90%;
@@ -946,6 +968,22 @@ body {
       text-align: left;
       margin: 0 auto;
     }
+  }
+  .contacts {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  .about-us--container {
+    text-align: center;
+  }
+  .feedback--card--description::before {
+    width: 25px;
+  }
+  .contacts-work-block--number {
+    padding-right: 1em;
+  }
+  .we-tow--title {
+    text-align: center;
   }
 }
  
