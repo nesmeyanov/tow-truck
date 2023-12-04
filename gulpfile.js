@@ -31,7 +31,6 @@ exports.default = gulp.parallel(
   exports.libs_js,
   exports.dev_js,
   exports.rastr,
-  exports.webp,
   exports.svg_sprite,
   exports.html,
   exports.bs_html,

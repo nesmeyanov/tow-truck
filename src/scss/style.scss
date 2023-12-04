@@ -303,8 +303,6 @@ body {
   width: 100%;
   & li {
     list-style: none;
-    // margin-left: 1.5rem;
-    // margin-bottom: 0.5rem;
     font-size: 1.2rem;
     height: 50px;
   }
@@ -553,6 +551,9 @@ body {
       width: 70%;
     }
   }
+}
+.contacts-phone-block--copy {
+  display: none;
 }
 
 
@@ -935,9 +936,6 @@ body {
     padding: 0;
     margin: auto 0;
   }
-  .contacts--title {
-    padding-left: 5.7em;
-  }
   .main-call-btn  {
     margin: auto;
     font-family: Montserrat-Medium;
@@ -984,6 +982,17 @@ body {
   }
   .we-tow--title {
     text-align: center;
+  }
+  .contacts {
+    &--title {
+      width: 83%;
+      margin: 0 auto;
+    }
+    padding: 3em 11.2em;
+    &-wrapper {
+      width: 87%;
+      max-width: 1200px;
+    }
   }
 }
  
